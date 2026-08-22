@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en"><body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+    <a href="dashboard.html">Dashboard</a>
+</nav>
+<main>
+
+    <section>
+
+        <h2>Student Registration</h2>
+
+        <form>
+
+            <label for="name">Student Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="studentid">Student ID</label>
+            <input type="text" id="studentid" name="studentid" required>
+
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="department">Department</label>
+            <select id="department" name="department">
+
+                <option value="">Select Department</option>
+                <option value="cs">Computer Science</option>
+                <option value="ai">Computer Science with AI</option>
+                <option value="it">Information Technology</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="year">Year</label>
+            <select id="year" name="year">
+
+                <option value="">Select Year</option>
+                <option value="1">I Year</option>
+                <option value="2">II Year</option>
+                <option value="3">III Year</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <br><br>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+            >
+
+            <br><br>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p>
+            Already have an account?
+            <a href="login.html">Login here</a>
+        </p>
+
+    </section>
+
+</main>
+</body>
+</html>
